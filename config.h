@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "RobotoMono Nerd Font:style=Bold:pixelsize=14:antialias=true:autohint=true";
+static char *font = "HackNerdFont:style=Regular:pixelsize=14:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -123,8 +123,8 @@ static const char *colorname[] = {
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#cccccc",
 	"#555555",
-	"gray90", /* default foreground colour */
-	"black", /* default background colour */
+	"#e0fffe", /* default foreground colour */
+	"#010003", /* default background colour */
 };
 
 
